@@ -2,39 +2,24 @@
 
 > Created from the CVDLINK **repo-template**. Fill in the placeholders below, then work
 > through [PUBLISHING.md](PUBLISHING.md) to release this project to Zenodo → OpenAIRE → EOSC.
-> It works for any research output — a model, a tool, or a dataset. Delete this note once
-> everything is published (PUBLISHING.md stage 8).
+> Adapt the sections to your output — add, rename or remove them as needed. Delete this note once
+> everything is published (PUBLISHING.md stage 7).
 
 ## What it is
 
-<2–5 sentences: what this project is (model / tool / dataset), and its intended use.>
+<2–5 sentences: what this is (tool, dataset, …), and its intended use.>
 
 ## Status
 
 `experimental`  <!-- one of: experimental | prototype | stable | archived | data-only -->
 
-## Inputs / outputs — *for a model or tool*
+## Usage
 
-- **Input:** <e.g. 12-lead ECG (median beat) · OMOP EHR table · CLI arguments>
-- **Output:** <e.g. class probability · segmentation mask · report file>
+<How to install and run it — or, for a dataset, what the files contain and how to read them.
+Add subheadings if it helps, e.g. *Inputs / outputs* for a tool:>
 
-## Install / run
-
-```bash
-# example only — nothing below exists yet; replace with your real steps
-pip install -r requirements.txt
-python run.py --input example_input
-```
-
-## Model documentation — *AI models only*
-
-If this project is an AI model, it is described by an **AI Card**: what it does, the data and
-cohort it was built on, how it was evaluated, its limitations, and — for a system used on
-people — its risk profile. The card is generated from the model description file and lives in
-this repo, so it is versioned with the model and archived with each release.
-
-- **AI Card:** [`ai-model/model-description.html`](ai-model/model-description.html)
-- **AIMe registry:** <add the registry link once the record is submitted.>
+- **Input:** <what it takes in>
+- **Output:** <what it produces>
 
 ## Maintainer
 
@@ -43,8 +28,3 @@ this repo, so it is versioned with the model and archived with each release.
 ## How to cite
 
 Once this repo is archived to Zenodo, add the DOI here (citation metadata lives in `.zenodo.json`).
-
-<!-- Optional, AI models only: if the model is also listed on the AI4EOSC Marketplace
-     (see ai-model/AI4EOSC.md), add that link here too. -->
-- **Run it:** <AI4EOSC Marketplace link — delete this line if not listed>
-
